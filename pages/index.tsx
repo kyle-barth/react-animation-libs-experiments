@@ -2,7 +2,6 @@ import styled from "@emotion/styled";
 import type { NextPage } from "next";
 import CSSNavBar from "../components/css-navbar";
 import FramerMotionNavBar from "../components/framermotion-navbar";
-import ReactSpringNavBar from "../components/reactspring-navbar";
 import ReactTransitionGroupNavBar from "../components/reacttransitiongroup-navbar";
 
 const Home: NextPage = () => {
@@ -11,7 +10,6 @@ const Home: NextPage = () => {
       <CSSNavBar />
       <FramerMotionNavBar />
       <ReactTransitionGroupNavBar />
-      <ReactSpringNavBar />
     </Container>
   );
 };
