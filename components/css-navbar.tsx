@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styled from "@emotion/styled";
-import { Container, HamburgerMmmmTasty, Text } from "./shared";
+import { Container, SideNavBtn, Text } from "./shared";
 import impl from "./Implementations";
 import { CopyBlock, dracula } from "react-code-blocks";
 
@@ -10,7 +10,7 @@ const CSSNavBar = () => {
   return (
     <>
       <Container>
-        <HamburgerMmmmTasty
+        <SideNavBtn
           onClick={() => setOpenState(!openState)}
           state={openState}
         />

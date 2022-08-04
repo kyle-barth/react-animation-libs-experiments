@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
 `;
 
-export const HamburgerMmmmTasty = styled.button<{ state: boolean }>`
+export const SideNavBtn = styled.button<{ state: boolean }>`
   width: 50px;
   height: 50px;
   background-color: ${({ state }) => (state ? "green" : "red")};

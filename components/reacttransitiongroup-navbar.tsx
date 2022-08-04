@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styled from "@emotion/styled";
-import { Container, HamburgerMmmmTasty, Text } from "./shared";
+import { Container, SideNavBtn, Text } from "./shared";
 import { Transition, TransitionStatus } from "react-transition-group";
 import { CopyBlock, dracula } from "react-code-blocks";
 import impl from "./Implementations";
@@ -13,7 +13,7 @@ const ReactTransitionGroupNavBar = () => {
   return (
     <>
       <Container>
-        <HamburgerMmmmTasty
+        <SideNavBtn
           onClick={() => setOpenState(!openState)}
           state={openState}
         />

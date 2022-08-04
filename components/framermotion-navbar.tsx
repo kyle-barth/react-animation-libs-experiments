@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styled from "@emotion/styled";
 import { motion } from "framer-motion";
-import { Container, HamburgerMmmmTasty, Text } from "./shared";
+import { Container, SideNavBtn, Text } from "./shared";
 import { CopyBlock, dracula } from "react-code-blocks";
 import impl from "./Implementations";
 
@@ -16,7 +16,7 @@ const FramerMotionNavBar = () => {
   return (
     <>
       <Container>
-        <HamburgerMmmmTasty
+        <SideNavBtn
           onClick={() => setOpenState(!openState)}
           state={openState}
         />
